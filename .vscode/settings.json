@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "C:\\Python\\MotionDetection\\kivyenv\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "python-envs.pythonProjects": []
+}
