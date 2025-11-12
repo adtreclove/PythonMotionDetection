@@ -19,7 +19,7 @@ class MotionApp(App):
         self.motion_list = [None, None]
         self.time = []
         self.df = pd.DataFrame(columns=["Start", "End"])
-        self.motion_count = 0  # 👈 new counter for total detections
+        self.motion_count = 0  # new counter for total detections
 
         # --- Layout setup ---
         layout = BoxLayout(orientation='vertical', spacing=10, padding=10)
@@ -91,7 +91,7 @@ class MotionApp(App):
 
         # --- Update labels ---
         if motion == 1:
-            self.status_label.text = "⚠️ Motion Detected!"
+            self.status_label.text = "Motion Detected!"
             self.status_label.color = get_color_from_hex("#FF0000")  # red
         else:
             self.status_label.text = "No motion detected"
